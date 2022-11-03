@@ -23,7 +23,6 @@ function cachingDecoratorNew(func) {
   }
 }
 
-
 function debounceDecoratorNew(func, delay) {
   let timeoutId = null;
   wrapper.count = 0;
